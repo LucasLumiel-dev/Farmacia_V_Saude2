@@ -1,5 +1,5 @@
 <?php
-require "configPDO.php";
+/*require "configPDO.php";
 
 class produtos
 {
@@ -104,4 +104,4 @@ class produtos
             return false;
         }
     }
-}
+} 

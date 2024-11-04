@@ -1,4 +1,5 @@
 <?php
+/*
 require "configPDO.php";
 date_default_timezone_set('America/Sao_Paulo'); //define um fuso horario padão para o data_cadastro
 

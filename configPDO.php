@@ -1,28 +1,8 @@
-<?php
-class Config
-{
-    private $dsn;
-    private $username;
-    private $password;
-    private $pdo;
-
-    public function __construct()
-    {
-        $this->dsn = "mysql:dbname=BdVidaSaudavel;host=localhost:3306";
-        $this->username = "root";
-        $this->password = "cimatec"; //OgtoQmorr10#000***
-        $this->pdo = new PDO($this->dsn, $this->username, $this->password);
-    }
-
-    public function getPDO()
-    {
-        return $this->pdo;
-    }
-
-    public function __destruct()
-    {
-        $this->pdo = null;
-    }
+<?php 
+// Criando a conexão
+$pdo = new PDO("mysql:dbname=Farmacia_V_Saude2;host=localhost:3306","root","cimatec");
+if ($pdo){
+    echo "Banco conectado";
 }
  
     try {
