@@ -1,5 +1,5 @@
 <?php
-require 'config.php'; 
+require 'configPDO.php'; 
 
 // Verifica se o ID foi enviado
 if (isset($_POST['id'])) {

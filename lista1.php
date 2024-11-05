@@ -1,5 +1,5 @@
 <?php
-require 'config.php';
+require 'configPDO.php';
 
 // Buscar informações do medicamento
 $sql = "SELECT * FROM medicamentos";

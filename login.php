@@ -22,7 +22,7 @@
             </div>
             <button type="submit" class="btn btn-primary w-100">Entrar</button><br><br>
 
-            <a href="listar_estatico.php" class="btn btn-default btn-lg active" role="button">Pular direto para a Lista</a>
+            <a href="lista_estatica.php" class="btn btn-default btn-lg active" role="button">Pular direto para a Lista</a>
 
         </form>
     </div>

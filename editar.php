@@ -1,6 +1,6 @@
 <?php
 
-require 'config.php';
+require 'configPDO.php';
 
 // Obter o ID do medicamento
 $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
